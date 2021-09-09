@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CircuitsService } from '../circuits.service';
+import { CircuitsService } from '../services/circuits.service';
 import { CircuitsComponent } from './circuits.component';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
@@ -11,7 +11,6 @@ import { CardModule } from 'primeng/card';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppComponent } from '../app.component';
 
 
 @NgModule({

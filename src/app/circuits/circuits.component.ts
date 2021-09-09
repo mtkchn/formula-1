@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs/internal/Subscription';
-import { CircuitsService } from '../circuits.service';
-import { Circuit, Race, Driver } from './circuits.model';
+import { CircuitsService } from '../services/circuits.service';
+import { Circuit, Race, Driver } from '../models/circuits.model';
 interface City {
   name: string,
   code: string
